@@ -14,12 +14,13 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body ng-app="SeatMap">
-	<h1>8/11 Elton John Staples Center</h1>
 	<div ng-controller="SeatChart" class="container">
 		<div class="row">
+			<div class="nav-bar small-12 columns"><h1>More Info</h1></div>
+			<div class="artist-bar small-12 columns"><h1>8/11 Elton John Staples Center</h1></div>
 			<div class="small-12 columns">
 				<p>Amount:<select ng-model="amount" ng-options="amount.label for amount in amounts"></select></p>
-				<p>Price:<select ng-model="price" ng-options="price.label for price in prices"></select></p>
+				<p>Price:<select ng-model="price" ng-=options"price.label for price in prices"></select></p>
 				<p>Section:<select ng-model="section" ng-options="section.label for section in sections"></select></p>
 				<button><a href="seating.html" style="text-decoration: none">Find Tix</a></button>
 			</div>

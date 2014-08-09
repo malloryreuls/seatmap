@@ -1,5 +1,6 @@
 body {
 	background-color: pink;
+	margin: 0 auto;
 }
 
 .seat {
@@ -8,10 +9,13 @@ body {
 	background-color: red;
 }
 
-.staplespic {
+.image-box {
 	background: url(../img/staples.png);
-	width: 300px;
-	height: 200px;
-	background-size: 100%;
-
+}
+.btn-container {
+	margin: 0 auto;
+	width: 80%;
+}
+.button {
+	background-color: green;
 }
