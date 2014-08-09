@@ -2,6 +2,7 @@ body {
 	margin: 0 auto;
 }
 .artist-bar {
+	padding: 2% 0;
 	background: -webkit-linear-gradient(rgb(60, 60, 60), rgb(0, 0, 0));
   background: -o-linear-gradient(rgb(60, 60, 60), rgb(0, 0, 0));
   background: -moz-linear-gradient(rgb(60, 60, 60), rgb(0, 0, 0));
@@ -9,24 +10,28 @@ body {
 }
 .artist-image {
 	margin-left: -5%;
-	height: 50px;
-	background-color: orange;
+	height: 40px;
+	background: url(../img/Elton.png);
+	background-size: 100%;
 }
 .artist-text {
 	color: white;
 	font-size: 0.8em;
-	line-height: 1;
+	line-height: 50%;
 }
-.artist-small-text {
+.artist-small-text, .artist-small-text2 {
 	font-size: 0.5em;
 	color: white;
-	line-height: 0;
+	line-height: 50%;
+}
+.artist-small-text2 {
+	margin: -5% 0 1% 0;
 }
 .image-box {
 	background: url(../img/staples.png);
 }
 .info-box {
-	margin-left: 1%;
+	margin: 2% 0 2% 1%;
 	width: 98%;
 	border-radius: 10px;
 	background-color: rgb(222, 222, 222);
@@ -36,6 +41,7 @@ body {
 	width: 90%;
 }
 .button {
+	padding: 5px;
 	border-radius: 12px;
 	background: -webkit-linear-gradient(rgb(42, 195, 50), rgb(0, 152, 51));
   background: -o-linear-gradient(rgb(42, 195, 50), rgb(0, 152, 51));
